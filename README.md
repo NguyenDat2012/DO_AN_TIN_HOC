@@ -1,5 +1,5 @@
 ỨNG DỤNG HỆ THỐNG TÌM ĐƯỜNG ĐI NGẮN NHẤT TRONG TRUNG TÂM THƯƠNG MẠI
-Thuật toán Floyd-Warshall được áp dụng để xây dựng một ứng dụng mô phỏng hệ thống tìm đường đi ngắn nhất trong trung tâm thương mại. Ứng dụng cho phép người dùng xác định và lựa chọn hai gian hàng bất kỳ, từ đó hệ thống sẽ tự động tính toán và hiển thị lộ trình tối ưu nhất dựa trên vị trí thực tế của các gian hàng trong không gian hai chiều.
+  Thuật toán Floyd-Warshall được áp dụng để xây dựng một ứng dụng mô phỏng hệ thống tìm đường đi ngắn nhất trong trung tâm thương mại. Ứng dụng cho phép người dùng xác định và lựa chọn hai gian hàng bất kỳ, từ đó hệ thống sẽ tự động tính toán và hiển thị lộ trình tối ưu nhất dựa trên vị trí thực tế của các gian hàng trong không gian hai chiều.
 
 CẤU TRÚC
 Dự án được xây dựng theo mô hình tách biệt giữa logic xử lý dữ liệu và giao diện người dùng, giúp mã nguồn dễ quản lý, dễ mở rộng và thuận tiện cho việc bảo trì. Cụ thể, cấu trúc chương trình gồm các thành phần chính sau:
