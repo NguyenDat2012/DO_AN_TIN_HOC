@@ -3,9 +3,9 @@ Thuật toán Floyd-Warshall được áp dụng để xây dựng một ứng d
 
 CẤU TRÚC
 Dự án được xây dựng theo mô hình tách biệt giữa logic xử lý dữ liệu và giao diện người dùng, giúp mã nguồn dễ quản lý, dễ mở rộng và thuận tiện cho việc bảo trì. Cụ thể, cấu trúc chương trình gồm các thành phần chính sau:
--Lớp MAPNODE: Lớp này dùng để lưu trữ thông tin cơ bản của một địa điểm dựa trên tên cửa hàng, tọa độ x, tọa độ y. Xây dựng dưới dạng Properties để đảm bảo tính đóng gói và an toàn dữ liệu.
--Lớp MAP (Đồ thị và thuật toán): Lớp này chịu trách nhiệm việc quản lý danh sách các nút và ma trận kề. Triển khai thuật toán Floyd-Warshall và các logic tính toán chính của hệ thống.
--Lớp Form1 (Giao diện): Lớp này đảm nhiệm việc xử lý các sự kiện từ người dùng như chọn điểm bắt đầu, điểm đến và nhấn nút tìm đường. Hiển thị giao diện một cách trực quan qua việc vẽ các đường đi thông qua các gian hàng tương ứng lên PictureBox dựa trên tọa độ đã xác định.
+1. Lớp MAPNODE: Lớp này dùng để lưu trữ thông tin cơ bản của một địa điểm dựa trên tên cửa hàng, tọa độ x, tọa độ y. Xây dựng dưới dạng Properties để đảm bảo tính đóng gói và an toàn dữ liệu.
+2. Lớp MAP (Đồ thị và thuật toán): Lớp này chịu trách nhiệm việc quản lý danh sách các nút và ma trận kề. Triển khai thuật toán Floyd-Warshall và các logic tính toán chính của hệ thống.
+3. Lớp Form1 (Giao diện): Lớp này đảm nhiệm việc xử lý các sự kiện từ người dùng như chọn điểm bắt đầu, điểm đến và nhấn nút tìm đường. Hiển thị giao diện một cách trực quan qua việc vẽ các đường đi thông qua các gian hàng tương ứng lên PictureBox dựa trên tọa độ đã xác định.
 
 
 HƯỚNG DẪN CÀI ĐẶT VÀ SỬ DỤNG
